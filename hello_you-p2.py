@@ -13,10 +13,13 @@ city = input("What city do you live in ? : ")
 
 love = input("What do you love doing ? : ")
 
+#Ask user for city
+player = input("Who is your favourite player ? : ")
+
 #Create output text
 
-string  = "Your name is {} and you are {} years old. You live in {} and you love {}"
-output =  string.format(name,age,city,love)
+string  = "Your name is {} and you are {} years old. You live in {} and you love {}. Your favourite player is {}"
+output =  string.format(name,age,city,love, player)
  
 #Print output to screen
 
