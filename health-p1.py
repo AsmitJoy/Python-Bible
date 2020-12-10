@@ -1,6 +1,6 @@
 import random
 
-health = 50
+health = 100
 
 difficulty = 1
 
